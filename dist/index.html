@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IceCreameт team 2</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+  <!-- Animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<link rel="stylesheet" href="/src.e31bb0bc.css"></head>
+
+<body>
+
+  <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
+   <!-- Header -->
+ 
+ <header class="page__header" id="Home">
+    
+    <div class="container">
+        <div class="header-nav">
+        <a href="/index.html" class="logo">
+            <img src="/logo.da0132e6.png" alt="logotype">
+           </a>
+           
+    <div class="tablet-nav">
+        <button type="button" class="button__header" data-menu-button="" aria-expanded="true" aria-controls="nav-container"> 
+        
+            <svg class="button-svg" width="20" height="12" aria-label="переключатель мобильного меню">
+                <use width="20" height="12" class="icon--burger" href="/sprite.5ec50489.svg#icon-Burger"></use>
+            </svg>
+       </button>
+           
+            <div class="nav-container" id="nav-container" data-menu="">
+               
+        <button type="button" class="menu-button is-open button__header-close" aria-expanded="false" aria-controls="nav-container" data-close-menu-button="">
+                <svg class="button-svg-close" width="15" height="15" aria-label="переключатель мобильного меню">
+                    <use width="15" height="15" class="icon--close" href="/sprite.5ec50489.svg#icon-close"></use>
+                </svg>
+                </button>
+              
+                <div class="button--wrapper"><button class="button-buy" type="button">
+                    <svg class="buy-arow">
+                        <use href="/sprite.5ec50489.svg#arow"></use>
+                    </svg>Buy now</button></div>
+                 
+                <nav class="main__nav">
+                    <ul class="site--nav">
+                        <li class="item--nav"><a href="#Home" class="link--nav current">Home</a></li>
+                        <li class="item--nav"><a href="#about-us" class="link--nav">About us</a></li>
+                        <li class="item--nav"><a href="#how-it-made" class="link--nav">How it’s made?</a></li>
+                        <li class="item--nav"><a href="#products" class="link--nav">Our products</a></li>
+                        <li class="item--nav"><a href="#contact" class="link--nav">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="button--tablet"><button class="button-buy wow pulse" data-wow-delay="2s" type="button">
+                    <svg class="buy-arow">
+                        <use href="/sprite.5ec50489.svg#arow"></use>
+                    </svg>Buy now</button>
+        </div> 
+    </div>
+    </div>
+</div>
+</header>
+
+
+  <main>
+
+    <!-- Hero -->
+<section class="hero">
+  <div class="container hero-page">
+    <div class="hero__main">
+      <h1 class="hero__title">
+        ice cream <br>
+        made with
+        <span class="hero__title--accent wow pulse" data-wow-delay="0.6s">passion</span>
+      </h1>
+      <div class="hero-button wow zoomInRight" data-wow-delay="0.6s" data-wow-iteration="1">
+        <a href="#products" class="button-head hero__navigation--product">
+          Products</a>
+        <a href="#how-it-made" class="button-accent hero__navigation--made">How it’s made?</a>
+      </div>
+    </div>
+
+    <div class="hero__description">
+      <p class="hero__description--text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et
+        <a class="hero__description--link wow heartBeat" data-wow-delay="0.4s" href=""></a>
+      </p>
+    </div>
+    <div class="hero__decor wow fadeInRight" data-wow-delay="0.1s" data-wow-mobile="false" data-wow-offset="10">
+      <ul class="hero__decor-box">
+        <li class="hero__decor-item">
+          <p class="hero__decor-text">
+            <span class="hero__decor-text--sale">16</span> <br>cafes
+          </p>
+        </li>
+        <li class="hero__decor-item">
+          <p class="hero__decor-text">
+            <span class="hero__decor-text--sale">23</span> <br>food trucks
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    <!-- Section Products -->
+
+<section class="section__products" id="products">
+  <div class="container products">
+    <h2 class="section__title title wow fadeInLeft" data-wow-mobile="false" data-wow-offset="80">
+      <span class="section__subtitle sub-title wow fadeInRight" data-wow-delay="1.2s">100% natural<br></span>
+      products
+    </h2>
+    <ul class="products-list">
+      <li class="products-list__item first-item wow fadeInUp" data-wow-delay="0.4s">
+        <picture>
+          <source srcset="/icecream-products-mobile.2e36b15c.webp    1x,/icecream-products-mobile@2x.79a6c762.webp 2x" type="image/webp" media="(max-width:767px)">
+          <source srcset="/icecream-products-tablet.0beefe1b.webp    1x,/icecream-products-tablet@2x.d05b14af.webp 2x" type="image/webp" media="(min-width:768px)">
+          <source srcset="/icecream-products.90b1f2cd.webp    1x,/icecream-products@2x.04755f6b.webp 2x" type="image/webp" media="(min-width:1200px)">
+          <img class="products-list__img icecream-img" src="/icecream-products.83650662.png" alt="pink strawberry ice cream cone" srcset="/icecream-products-mobile.60fe7d3d.png    1x,/icecream-products-mobile@2x.83442ecf.png 2x,/icecream-products-tablet.1d14f992.png    1x,/icecream-products-tablet@2x.b8af8409.png 2x,/icecream-products.83650662.png           1x,/icecream-products@2x.b21d7d08.png        2x">
+        </picture>
+        <div class="products__content-box">
+          <h3 class="products-list__title">ice cream</h3>
+          <p class="products-list__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et.
+            <span class="products-list__text-part">dolore magna aliqua facilisis.</span>
+          </p>
+
+          <a class="products-list__link wow heartBeat" data-wow-delay="1s" href=""></a>
+        </div>
+      </li>
+
+      <li class="products-list__item second-item wow fadeInUp" data-wow-delay="0.7s">
+        <picture>
+          <source srcset="/icecoffee-products-mobile.a1344b97.webp    1x,/icecoffee-products-mobile@2x.1065e10a.webp 2x" type="image/webp" media="(max-width:767px)">
+          <source srcset="/icecoffee-products-tablet.eca45b53.webp    1x,/icecoffee-products-tablet@2x.a5e04250.webp 2x" type="image/webp" media="(min-width:768px)">
+          <source srcset="/icecoffee-products.1286547b.webp    1x,/icecoffee-products@2x.a81dbcdd.webp 2x" type="image/webp" media="(min-width:1200px)">
+          <img class="products-list__img icecoffee-img" src="/icecoffee-products.f075e14a.png" alt="glass of ice coffee" srcset="/icecoffee-products-mobile.ba92e3cf.png    1x,/icecoffee-products-mobile@2x.e942ddb9.png 2x,/icecoffee-products-tablet.714b5863.png    1x,/icecoffee-products-tablet@2x.1f4bdee3.png 2x,/icecoffee-products.f075e14a.png           1x,/icecoffee-products@2x.e16e9d12.png        2x">
+        </picture>
+        <div class="products__content-box">
+          <h3 class="products-list__title">ice coffee</h3>
+          <p class="products-list__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et.
+            <span class="products-list__text-part">dolore magna aliqua facilisis.</span>
+          </p>
+        
+        <a class="products-list__link wow heartBeat" data-wow-delay="1s" href=""></a>
+        </div>
+      </li>
+
+      <li class="products-list__item third-item wow fadeInUp" data-wow-delay="0.9s">
+        <picture>
+          <source srcset="/milkshakes-products-mobile.09815858.webp    1x,/milkshakes-products-mobile@2x.5de86368.webp 2x" type="image/webp" media="(max-width:767px)">
+          <source srcset="/milkshakes-products-tablet.08cfb365.webp    1x,/milkshakes-products-tablet@2x.de2f6544.webp 2x" type="image/webp" media="(min-width:768px)">
+          <source srcset="/milkshakes-products.9b663a42.webp    1x,/milkshakes-products@2x.9656f530.webp 2x" type="image/webp" media="(min-width:1200px)">
+          <img class="products-list__img milkshakes-img" src="/milkshakes-products.8b32b54a.png" alt="chocolate milkshake" srcset="/milkshakes-products-mobile.85ce8c65.png    1x,/milkshakes-products-mobile@2x.c8f0192e.png 2x,/milkshakes-products-tablet.c21cfbd7.png    1x,/milkshakes-products-tablet@2x.e68f3fdd.png,/milkshakes-products.8b32b54a.png           1x,/milkshakes-products@2x.a743fb85.png        2x">
+        </picture>
+        <div class="products__content-box">
+          <h3 class="products-list__title">milkshakes</h3>
+          <p class="products-list__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et.
+            <span class="products-list__text-part">dolore magna aliqua facilisis.</span>
+          </p>
+        
+        <a class="products-list__link wow heartBeat" data-wow-delay="1s" href=""></a>
+      </div></li>
+      </ul></div>
+    
+  
+</section>
+
+    <!-- Section how-it-made -->
+<section id="how-it-made" class="section how-it-made how-it-made__background">
+  <div class="container how-it-made__container">
+    
+    <h2 class="section__title title wow fadeInLeft" data-wow-mobile="false" data-wow-offset="80">
+      <span class="section__subtitle sub-title wow fadeInRight" data-wow-delay="1.2s"> tradition and love<br>
+      </span>
+      how it's made?
+    </h2>
+
+    <div class="how-it-made__main-block">
+      <div class="how-it-made__left-side">
+        <picture class="picture">
+          <source srcset="/cow_desktop.a41ec3f4.webp    1x,/cow_desktop@2x.d504495d.webp 2x" media="(min-width: 1200px)" type="image/webp">
+          <source srcset="/cow_desktop.61b4001c.png    1x,/cow_desktop@2x.954f06a7.png 2x" media="(min-width: 1200px)">
+
+          <source srcset="/cow_tablet.dc0d6f26.webp    1x,/cow_tablet@2x.baedcfd8.webp 2x" media="(min-width: 768px)" type="image/webp">
+          <source srcset="/cow_tablet.82d6fe7f.png    1x,/cow_tablet@2x.1651d83b.png 2x" media="(min-width: 768px)">
+
+          <source srcset="/cow_tel.e5191150.webp    1x,/cow_tel@2x.f8ce00b0.webp 2x" media="(min-width: 320px)" type="image/webp">
+          <source srcset="/cow_tel.a29adfa8.png    1x,/cow_tel@2x.d7b49d64.png 2x" media="(min-width: 320px)">
+
+          <img src="/cow_tel.a29adfa8.png" alt="cow with a glass of milk" class="picture">
+        </picture>
+      </div>
+
+      <div class="how-it-made__right-side">
+        <p class="how-it-made__losung">
+          Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo
+          cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at
+          justo fringilla.
+        </p>
+
+        <p class="how-it-made__text">
+          Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum.
+          Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl
+          suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh,
+          tincidunt.
+        </p>
+
+        <p class="how-it-made__text another">
+          Aliquam erat volutpat. Aenean accumsan.
+        </p>
+
+        <a href="" class="link how-it-made__link">Read more
+
+          <svg class="how-it-made__icon">
+            <use href="/sprite.5ec50489.svg#icon-arrow-my"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <ul id="about-us" class="how-it-made__list">
+      <li class="how-it-made__list--link first">
+        <p class="how-it-made__number">721</p>
+        <p class="how-it-made__recipe">
+          Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+        </p>
+      </li>
+      <li class="how-it-made__list--link second">
+        <p class="how-it-made__number">16</p><span class="how-it-made__number--weight">kg</span>
+        <p class="how-it-made__recipe">
+          Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+        </p>
+      </li>
+      <li class="how-it-made__list--link third">
+        <p class="how-it-made__number">84</p>
+        <p class="how-it-made__recipe">
+          Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+        </p>
+      </li>
+    </ul>
+
+    <div class="how-it-made__galerry">
+         <picture class="picture">
+            <source srcset="/icecream_desktop.fcad9ed1.webp    1x,/icecream_desktop@2x.e13e015c.webp 2x" media="(min-width: 1200px)" type="image/webp">
+            <source srcset="/icecream_desktop.c6deb3ad.jpg    1x,/icecream_desktop@2x.51cb202e.jpg 2x" media="(min-width: 1200px)">
+
+            <source srcset="/icecream_tablet.563fd173.webp    1x,/icecream_tablet@2x.5587d873.webp 2x" media="(min-width: 768px)" type="image/webp">
+            <source srcset="/icecream_tablet.b7224f83.jpg    1x,/icecream_tablet@2x.df05ae08.jpg 2x" media="(min-width: 768px)">
+
+            <source srcset="/icecream_tel.a20e294e.webp    1x,/icecream_tel@2x.5b5056ce.webp 2x" media="(min-width: 320px)" type="image/webp">
+            <source srcset="/icecream_tel.cf5d63b3.jpg    1x,/icecream_tel@2x.7ab7969b.jpg 2x" media="(min-width: 320px)">
+
+            <img src="/icecream_tel.cf5d63b3.jpg" alt="cow with a glass of milk" class="how-it-made__picture">
+        </picture>
+    </div>
+   
+  </div>
+</section>
+
+    <!-- Section feedback -->
+<section class="feedback">
+    <!-- <h2 class="section__feedback-title">Feedback</h2> -->
+    <div class="container">
+
+        <section class="slider__area slider">
+            <div class="slider__item">
+                <h2 class="slider__title visually-hidden">Feedback</h2>
+                <div class="feedback__photo--container slider__item">
+                    <img src="/feedback-1.b9237408.jpg" alt="client photo" class="feedback__photo feedback__client-icon">
+                </div>
+
+                <div class="feedback__text--container">
+                    <div class="text__linear--gradient">
+                        <p class="feedback__text">
+                            Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit
+                            nulla
+                            quam
+                            nunc,
+                            accumsan
+                            congue. Lorem ipsum primis in nibh vel risus.
+                        </p>
+                    </div>
+                </div>
+                <div class="feedback__slider--container">
+                    <h3 class="feedback__address">Emily, Los Angeles</h3>
+                </div>
+
+                <div class="feedback__slider--count">
+                    <ul class="slick-slider">
+                        <li class="slick-slider__item">
+                        </li>
+                        <li class="slick-slider__item">
+                        </li>
+                        <li class="slick-slider__item">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slider__item">
+                <h2 class="slider__title visually-hidden">Feedback</h2>
+                <div class="feedback__photo--container slider__item">
+                    <img src="/feedback-2.6ca79528.jpg" alt="client photo" class="feedback__photo feedback__client-icon">
+                </div>
+
+                <div class="feedback__text--container">
+                    <div class="text__linear--gradient">
+                        <p class="feedback__text">
+                            Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit
+                            nulla
+                            quam
+                            nunc,
+                            accumsan
+                            congue. Lorem ipsum primis in nibh vel risus.
+                        </p>
+                    </div>
+                </div>
+                <div class="feedback__slider--container">
+                    <h3 class="feedback__address">Emily, Los Angeles</h3>
+                </div>
+
+                <div class="feedback__slider--count">
+                    <ul class="slick-slider">
+                        <li class="slick-slider__item">
+                        </li>
+                        <li class="slick-slider__item">
+                        </li>
+                        <li class="slick-slider__item">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slider__item">
+                <h2 class="slider__title visually-hidden">Feedback</h2>
+                <div class="feedback__photo--container slider__item filter">
+                    <img src="/feedback-3.46a62da6.jpg" alt="client photo" class="feedback__photo feedback__client-icon">
+                </div>
+
+                <div class="feedback__text--container">
+                    <div class="text__linear--gradient">
+                        <p class="feedback__text">
+                            Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit
+                            nulla
+                            quam
+                            nunc,
+                            accumsan
+                            congue. Lorem ipsum primis in nibh vel risus.
+                        </p>
+                    </div>
+                </div>
+                <div class="feedback__slider--container">
+                    <h3 class="feedback__address">Emily, Los Angeles</h3>
+
+                </div>
+
+                <div class="feedback__slider--count">
+                    <ul class="slick-slider">
+                        <li class="slick-slider__item">
+                        </li>
+                        <li class="slick-slider__item">
+                        </li>
+                        <li class="slick-slider__item">
+                        </li>
+                    </ul>
+                </div>
+        </div></section>
+    </div>
+</section>
+    <!-- Section filials -->
+<section class="section__filials" id="contact">
+    <div class="container filials__one">
+        <div class="position__filials">
+            <div class="filials">
+                <div class="filials__wrap wow fadeInUp" data-wow-delay="0.4s">
+                    <p class="filials__box">cafe</p>
+                    <div class="filials__information-main">
+                        <h3 class="filials__city">Chicago</h3>
+                        <p class="filials__text-part">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+                    </div>
+                    <div class="filials__information-schedual">
+                        <div class="filials__schedual morning">
+                            <p class="filials__day">Monday - Friday</p>
+                            <p class="filials__hour"><time datetime="06:00">06:00 AM - </time><time datetime="10:00">10:00 PM</time></p>
+                        </div>
+                        <div class="filials__schedual">
+                            <p class="filials__day">Saturday - Sunday</p>
+                            <p class="filials__hour"><time datetime="08:00">08:00 AM - </time><time datetime="16:00">10:00 PM</time></p>
+                        </div>
+                    </div>
+                    <div class="filials__information-contact">
+                        <p class="filials__phone">+61(0) 383 766 284</p>
+                        <p class="filials__email">noreply@envato.com</p>
+                    </div>
+                </div>
+        
+                <div class="filials__wrap wow fadeInUp" data-wow-delay="0.7s">
+                    <p class="filials__box green-title">foodtruck</p>
+                    <div class="filials__information-main">
+                        <h3 class="filials__city">Los Angeles</h3>
+                        <p class="filials__text-part">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+                    </div>
+                    <div class="filials__information-schedual">
+                        <div class="filials__schedual morning">
+                            <p class="filials__day">Monday - Friday</p>
+                            <p class="filials__hour"><time datetime="06:00">06:00 AM - </time><time datetime="10:00">10:00 PM</time></p>
+                        </div>
+                        <div class="filials__schedual">
+                            <p class="filials__day">Saturday - Sunday</p>
+                            <p class="filials__hour"><time datetime="08:00">08:00 AM - </time><time datetime="16:00">10:00 PM</time></p>
+                        </div>
+                    </div>
+                    <div class="filials__information-contact">
+                        <p class="filials__phone">+61(0) 383 766 284</p>
+                        <p class="filials__email">noreply@envato.com</p>
+                    </div>
+                </div>
+        
+                <div class="filials__wrap wow fadeInUp" data-wow-delay="0.9s">
+                    <p class="filials__box">cafe</p>
+                    <div class="filials__information-main">
+                        <h3 class="filials__city">New York</h3>
+                        <p class="filials__text-part">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+                    </div>
+                    <div class="filials__information-schedual">
+                        <div class="filials__schedual morning">
+                            <p class="filials__day">Monday - Friday</p>
+                            <p class="filials__hour"><time datetime="06:00">06:00 AM - </time><time datetime="10:00">10:00 PM</time></p>
+                        </div>
+                        <div class="filials__schedual">
+                            <p class="filials__day">Saturday - Sunday</p>
+                            <p class="filials__hour"><time datetime="08:00">08:00 AM - </time><time datetime="16:00">10:00 PM</time></p>
+                        </div>
+                    </div>
+                    <div class="filials__information-contact">
+                        <a class="filials__phone">+61(0) 383 766 284</a>
+                        <a class="filials__email">noreply@envato.com</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="filials__link">
+                <ul class="filials__list-link">
+                    <li class="filials__location">
+                        <a class="filials__link-location button-head" href="#">Our Locations
+                            <svg class="filials__icon-location">
+                                <use href="/sprite.5ec50489.svg#icon-arow-white">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="filials__franchise">
+                        <a class="filials__link-franchise button-accent" href="#">Franchise
+                            <svg class="filials__icon-franchise">
+                                <use href="/sprite.5ec50489.svg#arow">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+  </main>
+
+  <!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-thumb">
+      <div class="footer-name">
+        <h2 class="footer-name__title sub-title wow fadeInLeft" data-wow-mobile="false" data-wow-offset="80">
+          homemade ice cream made <br>
+          <span class="footer-name__desroptio title wow fadeInLeft" data-wow-delay="1.2s">with passion</span>
+        </h2>
+      </div>
+      <div class="footer-social">
+        <ul class="footer-social__list">
+          <li class="footer-social__item">
+            <a href="" class="footer-social__link">
+              <svg class="footer-social__icon">
+                <use href="/sprite.5ec50489.svg#icon-github"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social__item">
+            <a href="" class="footer-social__link">
+              <svg class="footer-social__icon">
+                <use href="/sprite.5ec50489.svg#icon-telegram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social__item">
+            <a href="" class="footer-social__link">
+              <svg class="footer-social__icon">
+                <use href="/sprite.5ec50489.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <address class="footer-contact">
+          Feel free to contact
+          <a href="tel:+610383766284" class="footer-contact-mobile">
+            <span>+61 (0) 383 766 284</span>
+          </a>
+        </address>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="footer-copyright__box">
+      <p class="footer-copyright__text">
+        &copy; 2019 - IceCream. All Rights Reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- BACK TO TOP BUTTON -->
+  <a id="button"></a>
+
+  <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+
+  <!-- Animations -->
+  <script>new WOW({
+  mobile: false
+}).init();</script>
+    
+  <script src="/menu.0c91648c.js"></script>
+  <script src="/src.e31bb0bc.js"></script>
+
+  <!-- SLIDER -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="https://cdnjs.com/libraries/slick-carousel"></script>
+  <script>$('.slider__area').slick({
+  dots: true,
+  infinite: true,
+  arrows: false,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  speed: 1900,
+  autoplaySpeed: 2700
+});</script>
+
+  <!-- NUMBERS -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="/jquery.spincrement.min.70856234.js"></script>
+  <script src="/custom.a62a38dd.js"></script>
+
+</body>
+
+</html>
